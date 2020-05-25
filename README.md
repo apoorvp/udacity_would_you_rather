@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Description
+
+The basic functionality is explained below - :
+
+In the "Would You Rather?" Project, you'll build a web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”. Answering "neither" or "both" is against the rules.
+
+In your app, users will be able to answer questions, see which questions they haven’t answered, see how other people have voted, post questions, and see the ranking of users on the leaderboard.
+
+This application is developed using react and redux. Also I used react-redux library to connect with the redux store.I used proptypes to make the component accept only those proptypes with defined type. To show the loading icon I used react-redux-loading library.
+
+Also I used redux-thunk as a middleware.redux-thunk helps in solving the problem of asynchronus calls.
+By calling our API in an action creator, we make the action creator responsible for fetching the data it needs to create the action. Since we move the data-fetching code to action creators, we build a cleaner separation between our UI logic and our data-fetching logic. As a result, thunks can then be used to delay an action dispatch, or to dispatch only if a certain condition is met (e.g., a request is resolved).
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
